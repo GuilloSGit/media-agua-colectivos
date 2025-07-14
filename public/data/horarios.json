@@ -1,13 +1,13 @@
 {
   "media-agua-capital": {
     "lunes-viernes": [
-      { "hora": "06:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "06:00", "empresa": "Empresa San Juan", "tipo": "Directo por Ruta 40" },
       { "hora": "07:30", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
       { "hora": "09:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
       { "hora": "11:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
       { "hora": "13:30", "empresa": "Empresa San Juan", "tipo": "Directo" },
       { "hora": "15:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
-      { "hora": "17:30", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "17:30", "empresa": "Empresa San Juan", "tipo": "Directo por Ruta 40" },
       { "hora": "19:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
       { "hora": "21:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
       { "hora": "23:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },

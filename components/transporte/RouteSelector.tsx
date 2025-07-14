@@ -14,8 +14,11 @@ export default function RouteSelector({ activeRoute, setActiveRoute }: RouteSele
   ]
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+    <div className="w-full md:max-w-sm flex flex-col gap-2">
+      <fieldset className="flex flex-col gap-2 p-2 border border-gray-300 rounded-md pb-6">
+        <legend className="text-xs">Seleccione la ruta</legend>
         <select
+          id="routeSelector"
           value={activeRoute}
           onChange={(e) => setActiveRoute(e.target.value)}
           className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -27,6 +30,7 @@ export default function RouteSelector({ activeRoute, setActiveRoute }: RouteSele
             </option>
           ))}
         </select>
+      </fieldset>
     </div>
   )
 }

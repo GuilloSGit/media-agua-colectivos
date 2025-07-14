@@ -119,9 +119,10 @@ export default function MediaAguaColectivos() {
           <p className="text-gray-600">Consulta los horarios actualizados de todas las líneas</p>
         </div>
 
-        <RouteSelector activeRoute={activeRoute} setActiveRoute={setActiveRoute} />
-
-        <DayTypeSelector activeDayType={activeDayType} setActiveDayType={setActiveDayType} />
+        <div className="flex flex-col w-full gap-2 md:flex-row md:flex-wrap md:items-center md:justify-center md:gap-4 sm:items-start sm:justify-start sm:gap-2">
+          <RouteSelector activeRoute={activeRoute} setActiveRoute={setActiveRoute} />
+          <DayTypeSelector activeDayType={activeDayType} setActiveDayType={setActiveDayType} />
+        </div>
 
         <Card>
           <CardHeader>
