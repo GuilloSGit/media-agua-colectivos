@@ -1,0 +1,141 @@
+{
+  "media-agua-capital": {
+    "lunes-viernes": [
+      { "hora": "06:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "07:30", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
+      { "hora": "09:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "11:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
+      { "hora": "13:30", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "15:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
+      { "hora": "17:30", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "19:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
+      { "hora": "21:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "23:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
+      { "hora": "23:40", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "24:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" }
+    ],
+    "sabados-domingos-feriados": [
+      { "hora": "07:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "09:30", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
+      { "hora": "12:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "15:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
+      { "hora": "18:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "21:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
+      { "hora": "23:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "23:40", "empresa": "Transporte Valle", "tipo": "Por La Colonia" }
+    ]
+  },
+  "capital-media-agua": {
+    "lunes-viernes": [
+      { "hora": "07:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "08:30", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
+      { "hora": "10:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "12:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
+      { "hora": "14:30", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "16:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
+      { "hora": "18:30", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "20:00", "empresa": "Transporte Valle", "tipo": "Semi-directo" },
+      { "hora": "22:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "23:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
+      { "hora": "23:40", "empresa": "Empresa San Juan", "tipo": "Directo" }
+    ],
+    "sabados-domingos-feriados": [
+      { "hora": "08:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "10:30", "empresa": "Transporte Valle", "tipo": "Semi-directo" },
+      { "hora": "13:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "16:00", "empresa": "Transporte Valle", "tipo": "Semi-directo" },
+      { "hora": "19:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "21:00", "empresa": "Transporte Valle", "tipo": "Por La Colonia" },
+      { "hora": "23:00", "empresa": "Empresa San Juan", "tipo": "Directo" },
+      { "hora": "23:40", "empresa": "Transporte Valle", "tipo": "Por La Colonia" }
+    ]
+  },
+  "media-agua-distritos": {
+    "lunes-viernes": [
+      { "hora": "06:30", "empresa": "Transporte Local", "tipo": "Local", "destino": "Cochagual" },
+      { "hora": "08:00", "empresa": "Transporte Local", "tipo": "Local", "destino": "Tres Esquinas" },
+      { "hora": "10:00", "empresa": "Transporte Local", "tipo": "Local", "destino": "Cochagual" },
+      { "hora": "12:00", "empresa": "Transporte Local", "tipo": "Local", "destino": "Tres Esquinas" },
+      { "hora": "14:00", "empresa": "Transporte Local", "tipo": "Local", "destino": "Cochagual" },
+      { "hora": "16:30", "empresa": "Transporte Local", "tipo": "Local", "destino": "Tres Esquinas" },
+      { "hora": "18:00", "empresa": "Transporte Local", "tipo": "Local", "destino": "Cochagual" },
+      { "hora": "20:00", "empresa": "Transporte Local", "tipo": "Local", "destino": "Tres Esquinas" },
+      { "hora": "22:00", "empresa": "Transporte Local", "tipo": "Local", "destino": "Cochagual" },
+      { "hora": "23:00", "empresa": "Transporte Local", "tipo": "Local", "destino": "Tres Esquinas" }
+    ],
+    "sabados-domingos-feriados": [
+      { "hora": "08:00", "empresa": "Transporte Local", "tipo": "Local", "destino": "Cochagual" },
+      { "hora": "10:00", "empresa": "Transporte Local", "tipo": "Local", "destino": "Tres Esquinas" },
+      { "hora": "14:00", "empresa": "Transporte Local", "tipo": "Local", "destino": "Cochagual" },
+      { "hora": "17:00", "empresa": "Transporte Local", "tipo": "Local", "destino": "Tres Esquinas" },
+      { "hora": "20:00", "empresa": "Transporte Local", "tipo": "Local", "destino": "Cochagual" },
+      { "hora": "23:00", "empresa": "Transporte Local", "tipo": "Local", "destino": "Tres Esquinas" }
+    ]
+  },
+  "distritos-media-agua": {
+    "lunes-viernes": [
+      { "hora": "07:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "08:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "10:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "12:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "14:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "17:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "18:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "20:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "22:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "23:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" }
+    ],
+    "sabados-domingos-feriados": [
+      { "hora": "08:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "10:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "14:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "17:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "20:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "23:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" }
+    ]
+  },
+  "media-agua-caucete": {
+    "lunes-viernes": [
+      { "hora": "07:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "08:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "10:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "12:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "14:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "17:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "18:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "20:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "22:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "23:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" }
+    ],
+    "sabados-domingos-feriados": [
+      { "hora": "08:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "10:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "14:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "17:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "20:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "23:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" }
+    ]
+  },
+  "caucete-media-agua": {
+    "lunes-viernes": [
+      { "hora": "07:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "08:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "10:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "12:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "14:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "17:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "18:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "20:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "22:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "23:00", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" }
+    ],
+    "sabados-domingos-feriados": [
+      { "hora": "08:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "10:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "14:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "17:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" },
+      { "hora": "20:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Cochagual" },
+      { "hora": "23:30", "empresa": "Transporte Local", "tipo": "Local", "origen": "Tres Esquinas" }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "fecha": "15 de Enero 2025",
+    "titulo": "Nuevo horario de verano",
+    "descripcion": "A partir del 20 de enero se implementarán horarios extendidos para la temporada de verano.",
+    "tipo": "Cambio de horario"
+  },
+  {
+    "fecha": "10 de Febrero 2025",
+    "titulo": "Mantenimiento de paradas",
+    "descripcion": "Se realizará mantenimiento en las paradas de la Ruta 40. Servicio normal desde las 14:00hs.",
+    "tipo": "Mantenimiento"
+  },
+  {
+    "fecha": "1 de Marzo 2025",
+    "titulo": "Nueva línea a Caucete",
+    "descripcion": "Próximamente se habilitará una nueva línea directa Media Agua - Caucete los días sábados.",
+    "tipo": "Nueva línea"
+  }
+]
