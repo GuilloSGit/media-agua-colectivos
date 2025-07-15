@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
+const basePath = process.env.NODE_ENV === 'production' ? '/media-agua-colectivos' : '';
+
 export const metadata: Metadata = {
   title: 'Media Agua Colectivos',
   description: 'Horarios de colectivos y rutas actualizadas',
@@ -15,7 +17,7 @@ export const metadata: Metadata = {
     emails: ['admin@ga-software.dev'],
     images: [
       {
-        url: '/logo.png',
+        url: `${basePath}/logo.png`,
         alt: 'Media Agua Colectivos',
       },
     ],
@@ -33,12 +35,12 @@ export default function RootLayout({
     <html lang="es">
       <head>
         {/* enlaces */}
-        <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/logo.png" />
-        <link rel="shortcut icon" href="/logo.png" />
-        <link rel="apple-touch-icon" href="/logo.png" />
-        <link rel="apple-touch-icon-precomposed" href="/logo.png" />
-        <link rel="apple-touch-startup-image" href="/logo.png" />
+        <link rel="manifest" href={`${basePath}/manifest.json`} />
+        <link rel="icon" href={`${basePath}/logo.png`} />
+        <link rel="shortcut icon" href={`${basePath}/logo.png`} />
+        <link rel="apple-touch-icon" href={`${basePath}/logo.png`} />
+        <link rel="apple-touch-icon-precomposed" href={`${basePath}/logo.png`} />
+        <link rel="apple-touch-startup-image" href={`${basePath}/logo.png`} />
 
         {/* metadatos */}
         <meta name="author" content="云贵正 (YunGuiZheng)" />
@@ -51,7 +53,7 @@ export default function RootLayout({
         <meta name="twitter:site" content="@MediaAguaColectivos" />
         <meta name="twitter:title" content="Media Agua Colectivos" />
         <meta name="twitter:description" content="Horarios de colectivos y rutas actualizadas" />
-        <meta name="twitter:image" content="https://media-agua-colectivos.vercel.app/logo.png" />
+        <meta name="twitter:image" content={`${basePath}/logo.png`} />
         <meta name="twitter:creator" content="@MediaAguaColectivos" />
         <meta name="twitter:domain" content="media-agua-colectivos.vercel.app" />
 
