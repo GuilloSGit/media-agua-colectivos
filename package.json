@@ -4,9 +4,10 @@
   "private": false,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "NODE_ENV=production next build",
     "start": "next start",
-    "lint": "next lint"
+    "export": "NODE_ENV=production next build && next export",
+    "preview": "npx serve out"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
