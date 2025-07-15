@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "NODE_ENV=production next build",
     "start": "next start",
-    "export": "NODE_ENV=production next build && next export",
+    "export": "NODE_ENV=production next build",
     "preview": "npx serve out"
   },
   "dependencies": {
