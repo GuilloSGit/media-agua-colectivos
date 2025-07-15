@@ -36,13 +36,15 @@ const DISTRICTOS = {
   ]
 }
 
+
 export default function MediaAguaColectivos() {
+  const basePath = process.env.NODE_ENV === 'production' ? '/media-agua-colectivos' : '';
   const [activeSection, setActiveSection] = useState("horarios")
   const [activeRoute, setActiveRoute] = useState("media-agua-capital")
   const [activeDayType, setActiveDayType] = useState<'lunes-viernes' | 'sabados-domingos-feriados'>("lunes-viernes")
   const [currentTime, setCurrentTime] = useState(new Date())
-  const [horarios, loadingHorarios] = useData<HorariosData>('/data/horarios.json')
-  const [eventos, loadingEventos] = useData<EventosData>('/data/eventos.json')
+  const [horarios, loadingHorarios] = useData<HorariosData>(`${basePath}/data/horarios.json`)
+  const [eventos, loadingEventos] = useData<EventosData>(`${basePath}/data/eventos.json`)
 
   useEffect(() => {
     const timer = setInterval(() => {
