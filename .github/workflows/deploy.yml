@@ -51,17 +51,7 @@ jobs:
 
       # Paso 3: Instalar pnpm si hace falta
       - name: Install pnpm
-        if: steps.detect-package-manager.outputs.manager == 'pnpm'
         run: npm install -g pnpm
-
-      - name: Install yarn
-        if: steps.detect-package-manager.outputs.manager == 'yarn'
-        run: npm install -g yarn
-
-      - name: Install npm
-        if: steps.detect-package-manager.outputs.manager == 'npm'
-        run: npm install -g npm
-
 
       # Paso 4: Instalar dependencias
       - name: Install dependencies
