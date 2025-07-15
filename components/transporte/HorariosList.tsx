@@ -1,3 +1,4 @@
+import React from "react"
 import { Badge } from "@/components/ui/badge"
 import { useState, useEffect } from "react"
 
@@ -149,26 +150,28 @@ export default function HorariosList({ horarios, currentTime, getNextScheduleInd
                 )}
               </div>
             </div>
-            <div className={`flex items-center justify-center transition-all duration-800 ${showWhatsAppButtons[index] ? 'w-1/6' : 'w-0 opacity-0'}`}>
-              <button
-                onClick={(e) => {
-                  e.stopPropagation();
-                  sendWhatsAppInfo(horario);
-                }}
-                className={`p-2 rounded-full hover:bg-gray-100 flex flex-col items-center gap-2 transition-all duration-800 ${isNext && currentDayType === activeDayType
-                  ? "bg-gradient-to-r from-green-100 to-green-50 border-2 border-green-300 shadow-lg transform scale-[1.02] m-2"
-                  : isPast
-                    ? "bg-blue-50 opacity-80 hover:bg-white m-2 px-2 py-2 border-2 border-gray-600"
-                    : "bg-gray-50 hover:bg-green-200 m-2 px-2 py-2 border-2 border-gray-600"
-                  }`}
-                title="Enviar por WhatsApp"
-              >
-                {window.innerWidth <= 640 ? (
-                  <span>📝</span>
-                ) : (
-                  <span>WhatsApp</span>
-                )}
-              </button>
+            <div className={`flex items-center justify-center transition-all duration-800 ${showWhatsAppButtons[index] ? 'w-1/6' : 'w-0'}`}>
+              <div className={`flex items-center justify-center transition-all duration-800 ${showWhatsAppButtons[index] ? 'opacity-100' : 'opacity-0'}`}>
+                <button
+                  onClick={(e: React.MouseEvent<HTMLButtonElement>) => {
+                    e.stopPropagation();
+                    sendWhatsAppInfo(horario);
+                  }}
+                  className={`p-2 rounded-full hover:bg-gray-100 flex flex-col items-center gap-2 transition-all duration-800 ${isNext && currentDayType === activeDayType
+                    ? "bg-gradient-to-r from-green-100 to-green-50 border-2 border-green-300 shadow-lg transform scale-[1.02] m-2"
+                    : isPast
+                      ? "bg-blue-50 opacity-80 hover:bg-white m-2 px-2 py-2 border-2 border-gray-600"
+                      : "bg-gray-50 hover:bg-green-200 m-2 px-2 py-2 border-2 border-gray-600"
+                    }`}
+                  title="Enviar por WhatsApp"
+                >
+                  {window.innerWidth <= 640 ? (
+                    <span>📝</span>
+                  ) : (
+                    <span>WhatsApp</span>
+                  )}
+                </button>
+              </div>
             </div>
           </div>
         )
