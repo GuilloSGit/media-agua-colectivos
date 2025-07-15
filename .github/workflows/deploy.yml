@@ -21,10 +21,10 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: pnpm install
+        run: npm install
 
       - name: Build static site
-        run: pnpm run export
+        run: npm run export
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
