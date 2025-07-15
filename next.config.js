@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: '/media-agua-colectivos',
-  assetPrefix: '/media-agua-colectivos/',
+  // Configuración de Next.js
+  // output: 'export',
 }
 
 module.exports = nextConfig
